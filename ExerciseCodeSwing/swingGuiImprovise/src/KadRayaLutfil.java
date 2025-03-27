@@ -7,6 +7,9 @@ public class KadRayaLutfil {
         // Create the main frame
         JFrame frameKad = new JFrame();
 
+        //tknak bagi besar
+        frameKad.setResizable(false);
+
         // Create a layered pane for stacking elements
         JLayeredPane layeredPane = new JLayeredPane();
         layeredPane.setPreferredSize(new Dimension(500, 500));
